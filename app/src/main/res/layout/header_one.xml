@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/headerOneRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/dpBossButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/lucky_dp_boss_bg"
+                android:fontFamily="@font/semi"
+                android:gravity="center"
+                android:padding="12dp"
+                android:src="@drawable/lucky_dp_b"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:visibility="visible"
+                app:iconTint="@null" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/home_call_now"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/lucky_background_pl"
+                android:drawableStart="@drawable/lucky_call_icon"
+                android:drawableTint="@color/white"
+                android:fontFamily="@font/medium"
+                android:paddingStart="8dp"
+                android:text="Whatsapp"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:cornerRadius="99dp"
+                app:icon="@drawable/lucky_ic_whtsp"
+                app:iconTint="@null" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/home_whatsapp_now"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/lucky_background_pl"
+                android:drawableStart="@drawable/lucky_ic_whtsp"
+                android:fontFamily="@font/medium"
+                android:paddingStart="8dp"
+                android:text="Whatsapp"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:cornerRadius="99dp"
+                app:icon="@drawable/lucky_ic_whtsp"
+                app:iconTint="@null" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wallet_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addPoints"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/lucky_background_pl"
+                android:drawableStart="@drawable/lucky_lucky_wallet_icon"
+                android:fontFamily="@font/medium"
+                android:paddingStart="14sp"
+                android:text="Add Points"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:cornerRadius="99dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/getPoints"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/lucky_background_pl"
+                android:backgroundTint="@color/colorGreen"
+                android:drawableStart="@drawable/lucky_down_arrow"
+                android:drawableTint="@color/white"
+                android:fontFamily="@font/medium"
+                android:paddingStart="14sp"
+                android:text="Withdraw"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:visibility="visible"
+                app:icon="@drawable/lucky_chart"
+                app:iconTint="@null" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/otherGamesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_starline"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/lucky_background_pl"
+                android:backgroundTint="@color/black"
+                android:drawableStart="@drawable/lucky_starline_icon"
+                android:fontFamily="@font/medium"
+                android:paddingStart="14sp"
+                android:text="StarLine"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:cornerRadius="99dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_gali"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/lucky_background_pl"
+                android:backgroundTint="@color/black"
+                android:drawableStart="@drawable/lucky_dice"
+                android:drawableTint="@color/white"
+                android:fontFamily="@font/medium"
+                android:paddingStart="13dp"
+                android:text="Gali-Disawar"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:visibility="visible"
+                app:icon="@drawable/lucky_chart"
+                app:iconTint="@null" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/telegram"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorGreen"
+                android:fontFamily="@font/medium"
+                android:text="Add Points"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:icon="@drawable/lucky_ic_walet"
+                app:iconPadding="0dp" />
+
+
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
